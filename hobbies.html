@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Yos_Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Avatar_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="YOS_index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="school.html">SCHOOL</a></li>
+                    <li><a href="hobbies.html">HOBBIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>   
+        </nav>
+        <h1>My Hobbies</h1>  
+    
+</section>
+  
+<!------------- HOBBIES PAGE CONTENT ---------------->
+    
+<section class="hobbies-content">
+    
+    <div class="row">
+        <div class="hobbies_left">
+            <img src="images/hileg.jpg">
+            <h2>My Kind of Happiness</h2>
+            <p>It give us something fun, interesting and challenging to do in our spare time and help us have a purpose outside of work. The many benefits of engaging in hobbies include
+            Stress relief, Hobbies draw us into something we love, which means we'll forget about everyday stresses.</p> 
+            <br>
+            <p>Everyone approaches cycling for different reasons. Some like to race. Others ride to work or for pleasure or for exercise or to spend time with friends. There's a range of options: road, trail, track and more.</p>
+            <br>
+            <p>You can say that climbers suffer the same as the other riders, but they suffer in a different way. You feel the pain, but you’re glad to be there</p>
+            <br>
+            <p>Just like in life, you have a lot of straggel that make you suffer, all you have to do is keep going and trust God until you reach the top.</p>
+            
+            <div class="comment-box">
+                
+                <h3>Leave a comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST 
+                    COMMENT</button>
+                </form>
+            </div>
+            
+               
+        </div>
+        <div class="hobbies_right">
+            <h3>List of Interest</h3>
+            <div>
+                <span>Cycling</span>
+                <span>Rank 1</span>
+            </div>
+            <div>
+                <span>Running</span>
+                <span>Rank 2</span>
+            </div>
+            <div>
+                <span>Roadtrip</span>
+                <span>Rank 3</span>
+            </div>
+            <div>
+                <span>Programming</span>
+                <span>Rank 4</span>
+            </div>
+            <div>
+                <span>Foodtrip</span>
+                <span>Rank 5</span>
+            </div>
+            <div>
+                <span>Driving</span>
+                <span>Rank 6</span>
+            </div>
+            <div>
+                <span>Online Gaming</span>
+                <span>Rank 7</span>
+            </div>
+        </div>
+    </div>
+    
+    
+</section>
+
+
+    
+<!--------- Footer ---------->
+ 
+<section class="footer">
+    <h4>Powered by Google</h4>
+    <p>Github | Corbin1101</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by yoshie</p>
+</section>
+        
+    
+    
+    
+
+<!------ Toggle Menu Java Script ------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Yos_School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Avatar_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="YOS_index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="school.html">SCHOOL</a></li>
+                    <li><a href="hobbies.html">HOBBIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>   
+        </nav>
+        <h1>My School</h1>  
+    
+</section>
+  
+<!-----School-----> 
+
+<section class="school">
+    
+    <div class="row">
+        <div class="school-col">
+            <h3>Background</h3>
+            <p>Julius, also known as "Yos" for short,<br>is a 20-year-old from Lemery, Batangas, who is currently residing in Kumintang Ibaba, Batangas City. Also a third-year college student at Batangas States University  Alangilan campus, where pursuing a Bachelor of Science in Information Technology major in networking technology (BSIT-NT).</p>
+        </div>
+        <div class="school-col">
+            <h3>Works</h3>
+            <p>> Hotel Front desk Management System (GUI)<br>> Batangas State University (Lemery Campus) Promotional Video</p>
+        </div>
+        <div class="school-col">
+            <h3>Achievements</h3>
+            <p>Cisco NetAcad 1<br>Cisco NetAcad 2<br>Animation NC II </p>
+        </div>
+    </div>
+    
+    
+</section>
+    
+
+<!-------- BSU NO.1 --------->
+    
+<section class="campus">
+    <h1>University Campus</h1>
+    <p>Batstate-u | THE NATIONAL ENGINEERING UNIVERSITY</p>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/alangilan.jpg">
+            <div class="layer">
+                <h3>ALANGILAN CAMPUS</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/BSU.jpg">
+            <div class="layer">
+                <h3>CEAFA BUILDING</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/CICSB.jpg">
+            <div class="layer">
+                <h3>CICS BUILDING</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+<!--------- Footer ---------->
+ 
+<section class="footer">
+    <h4>Powered by Google</h4>
+    <p>Github | Corbin1101</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by yoshie</p>
+</section>
+        
+    
+    
+    
+
+<!------ Toggle Menu Java Script ------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+</body>
+</html>
